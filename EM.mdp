@@ -1,0 +1,15 @@
+; Energy minimisation (also usable as ions.mdp for genion)
+integrator      = steep
+emtol           = 1000.0      ; stop when max force < 1000 kJ/mol/nm
+emstep          = 0.01
+nsteps          = 50000
+nstlist         = 10
+cutoff-scheme   = Verlet
+pbc             = xyz
+coulombtype     = PME
+rcoulomb        = 1.2
+vdwtype         = cutoff
+vdw-modifier    = force-switch
+rvdw-switch     = 1.0
+rvdw            = 1.2
+DispCorr        = no

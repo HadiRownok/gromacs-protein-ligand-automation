@@ -1,0 +1,19 @@
+# simulation data and results - do not upload
+*.xtc
+*.trr
+*.edr
+*.cpt
+*.tpr
+*.gro
+*.log
+*.ndx
+*.xvg
+*.pdb
+*.itp
+*.top
+\#*#
+MD_Analysis_*/
+setup_logs/
+setup_check/
+__pycache__/
+*.pyc
